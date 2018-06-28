@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-from sklearn.metrics import classification_report,accuracy_score #determine how successful we are in our outlier detection
+from sklearn.metrics import classification_report,accuracy_score 
 from sklearn.ensemble import IsolationForest
 from sklearn.neighbors import LocalOutlierFactor
 
