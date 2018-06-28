@@ -1,0 +1,2 @@
+# FraudDetection
+Fraud detection has now become a very important aspect in corporate as well as in personal life . With improvement in machine learning day by day it has become easier in detecting fraud without human intervention . But as someone said "With great power comes great responsibility" , likewise for a good machine learning model we need a good dataset . The dataset here has been downloaded from Kaggle .
