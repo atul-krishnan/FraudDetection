@@ -14,7 +14,7 @@ data=pd.read_csv('credit_card.csv')
 
 #data=data.sample(frac=0.1,random_state=1)
 
-#EDA(Exploratory Data Analysis)
+#Exploratory Data Analysis
 
 print(data.type.value_counts())
 
