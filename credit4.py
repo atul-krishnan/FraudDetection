@@ -12,7 +12,7 @@ from sklearn.metrics import confusion_matrix
 
 data=pd.read_csv('credit_card.csv')
 
-data=data.sample(frac=0.1,random_state=1)
+#data=data.sample(frac=0.1,random_state=1)
 
 #EDA(Exploratory Data Analysis)
 
@@ -148,7 +148,7 @@ n_errors=(y_pred!=testY).sum()
 #run classification metrics
 
 #print ('{}'.format(clf_name,n_errors))
-    	#print(accuracy_score(y,y_pred))  #since it's an unbalanced class problem the accurancy score will be inappropriate 
+#print(accuracy_score(y,y_pred))  #since it's an unbalanced class problem the accurancy score will be inappropriate 
 print "Classification report for Isolation Forest:-"
 print(classification_report(testY,y_pred))
 
