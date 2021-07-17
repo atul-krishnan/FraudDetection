@@ -1,4 +1,4 @@
-# FraudDetection
+# Credit Card Fraud Detection system
 Fraud detection has now become a very important aspect in corporate as well as in personal life . With improvement in machine learning day by day it has become easier in detecting fraud without human intervention . But as someone said "With great power comes great responsibility" , likewise for a good machine learning model we need a good dataset . The dataset here has been downloaded from https://www.kaggle.com/ntnu-testimon/paysim1/data . (Note: After downloading the dataset just rename the csv file to credit_card.csv)
 The detection technique that has been used in here is Anomaly Detection .
 I have commented in most places for the better understanding of the code .
